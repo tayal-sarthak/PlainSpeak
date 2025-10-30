@@ -1,0 +1,82 @@
+================================================================================
+                      PLAINSPEAK - WINNING VIDEO SCRIPT (2024 RUBRIC)
+================================================================================
+
+**Video Length:** Aim for 2.5 - 3 minutes.
+**Pacing:** Fast, confident, and dynamic. Use quick cuts and on-screen text.
+
+---
+
+### **Part 1: The Problem & The Ideology (0:00 - 0:25)**
+**(Video opens with a high-energy, animated title: "PlainSpeak". Your name appears below.)**
+**(Cut to you on camera, speaking with passion and conviction.)**
+
+**You:** "Our society runs on information. But what happens when that information is unreadable? 65 million Americans read below a 6th-grade level, yet our most critical documents—legal, medical, and civic—are written at a college level. This is information inequality, and it's a barrier to justice and basic rights. I believe access to information is a fundamental right. That's why I built PlainSpeak."
+
+**(As you speak, bold text animates on screen: "Information Inequality," "A Barrier to Justice," "A Fundamental Right.")**
+
+---
+
+### **Part 2: The Solution & The Impact (0:25 - 1:00)**
+
+**You:** "PlainSpeak is an AI-powered suite of tools designed to democratize information. It’s not just an app; it’s a creative solution for empowerment."
+
+**(Cut to a slick, fast-paced screen recording of the PlainSpeak dashboard. Zoom in on each tile as you mention it.)**
+
+**You (voiceover):** "The dashboard is the control center, designed to be clean, modern, and instantly intuitive. From here, you can simplify any text, analyze a paper document, or get verified checklists for government agencies.
+
+Let's see the impact. I'll take this confusing municipal ordinance..."
+
+**(Show pasting the complex text into the "Simplify Text" feature.)**
+
+**You (voiceover):** "...and with one click, PlainSpeak transforms it. It doesn't just shorten it; it intelligently extracts the critical **Action Items**. Suddenly, a confusing legal notice becomes a clear set of instructions. This gives people the power to understand their responsibilities and advocate for themselves."
+
+**(The simplified text and highlighted action items appear. The UI looks clean and responsive.)**
+
+---
+
+### **Part 3: Innovative Features & Complex Functionality (1:00 - 1:45)**
+
+**You (on camera):** "But the most innovative impact comes from bridging the gap between the paper world and the digital one."
+
+**(Cut to the "Analyze Image" feature. Upload an image of a complex form.)**
+
+**You (voiceover):** "Take a photo of any document—a medical bill, a court summons—and PlainSpeak's OCR engine digitizes and simplifies it in seconds. This isn't just a gadget; it's independence for a senior citizen trying to understand their healthcare."
+
+**(Show the image results: simplified text and action items clearly displayed.)**
+
+**You (voiceover):** "PlainSpeak's complexity doesn't stop there. In the settings..."
+
+**(Quickly navigate to the Settings page.)**
+
+**You (voiceover):** "...you can instantly translate the simplified text into one of eight languages, breaking down language barriers. You can also adjust the target reading level, personalizing the output for any user, from elementary school to college level. This is true accessibility."
+
+**(Demonstrate changing the language and the reading level. The text on screen should update to reflect the change.)**
+
+---
+
+### **Part 4: Code & Technical Understanding (1:45 - 2:15)**
+
+**(Cut to a clean graphic showing your tech stack: React, TypeScript, Python, Flask.)**
+
+**You (on camera, showing deep understanding):** "To build PlainSpeak, I used a modern, full-stack approach. The frontend is built with React and TypeScript for a seamless, responsive user experience. The backend is a powerful Flask API in Python.
+
+But my biggest technical challenge became my greatest strength. I initially implemented a complex machine learning model, but it was unstable and prone to crashing. An app designed for accessibility *must be reliable*. So, I made a critical engineering decision: I designed and built a custom, rule-based simplification engine. It's faster, more accurate for identifying action items, and guarantees stability for the user. This demonstrates a mature approach to software development: choosing the *right* tool for the job, not just the most complex one."
+
+**(This explanation is key to scoring a 5/5 on "Code.")**
+
+---
+
+### **Part 5: Engaging Structure & Final Impact (2:15 - 2:30)**
+
+**(Show a rapid, inspiring montage: a senior citizen smiling, a student studying, a family at a government office, all interspersed with clean shots of the app's UI in action.)**
+
+**You (voiceover):** "PlainSpeak is more than code. It's a tool for civic engagement. It's for the immigrant family navigating USCIS forms. It's for the student learning about their constitutional rights. It's for every citizen in MI-06 and across the nation who deserves to understand.
+
+My app is fully functional, built with a highly innovative and accessible interface, and tackles an extremely relevant social need."
+
+**(Final shot on you, looking directly at the camera.)**
+
+**You:** "My name is [Your Name], and with PlainSpeak, I'm making information accessible to all. Thank you."
+
+**(End with a final, polished title card: "PlainSpeak" logo, your name, and contact/GitHub link.)**

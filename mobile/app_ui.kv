@@ -1,0 +1,166 @@
+#:import dp kivy.metrics.dp
+# a little progress on a mobile-version :) 
+<Tile@MDCard+ButtonBehavior>:
+    size_hint: None, None
+    width: dp(188)
+    height: dp(124)
+    radius: [22, 22, 22, 22]
+    elevation: 3
+    ripple_behavior: True
+    md_bg_color: 1,1,1,1
+    icon: ''
+    text: ''
+    target: ''
+    on_press:
+        self.elevation = 8
+        self.md_bg_color = 0.98, 0.98, 0.98, 1
+    on_release:
+        self.elevation = 3
+        self.md_bg_color = 1, 1, 1, 1
+        app.go_to(self.target)
+    MDBoxLayout:
+        orientation: 'vertical'
+        padding: dp(14)
+        spacing: dp(10)
+        MDCard:
+            size_hint: None, None
+            size: dp(44), dp(44)
+            radius: [22, 22, 22, 22]
+            elevation: 0
+            md_bg_color: 0.20, 0.80, 0.40, 0.16
+            pos_hint: {'center_x': 0.5}
+            MDIcon:
+                icon: root.icon
+                theme_text_color: 'Primary'
+                font_size: '24sp'
+                pos_hint: {'center_x': 0.5, 'center_y': 0.5}
+        MDLabel:
+            text: root.text
+            halign: 'center'
+            font_style: 'Subtitle1'
+            theme_text_color: 'Custom'
+            text_color: 0.08, 0.08, 0.08, 1
+
+<LogoBadge@MDCard>:
+    size_hint: None, None
+    size: dp(64), dp(64)
+    radius: [16, 16, 16, 16]
+    elevation: 0
+    md_bg_color: app.theme_cls.primary_color
+    MDLabel:
+        text: 'P'
+        halign: 'center'
+        valign: 'middle'
+        font_style: 'H4'
+        theme_text_color: 'Custom'
+        text_color: 1,1,1,1
+
+<HomeScreen>:
+    name: 'home'
+    MDScrollView:
+        MDBoxLayout:
+            orientation: 'vertical'
+            padding: dp(18)
+            spacing: dp(20)
+            size_hint_y: None
+            height: self.minimum_height
+
+            MDBoxLayout:
+                orientation: 'vertical'
+                spacing: dp(8)
+                size_hint_y: None
+                height: self.minimum_height
+                LogoBadge:
+                    pos_hint: {'center_x': 0.5}
+                MDLabel:
+                    text: 'PlainSpeak'
+                    halign: 'center'
+                    font_style: 'H6'
+                    size_hint_y: None
+                    height: dp(22)
+                    theme_text_color: 'Custom'
+                    text_color: 0.1,0.1,0.1,1
+                MDLabel:
+                    text: 'Make any page easy to understand'
+                    halign: 'center'
+                    theme_text_color: 'Hint'
+                    size_hint_y: None
+                    height: dp(20)
+
+            Widget:
+                size_hint_y: None
+                height: dp(18)
+
+            AnchorLayout:
+                anchor_x: 'center'
+                MDGridLayout:
+                    cols: 2
+                    spacing: dp(14)
+                    size_hint: None, None
+                    width: dp(188) * 2 + dp(14)
+                    height: self.minimum_height
+                    Tile:
+                        icon: 'text-box-outline'
+                        text: 'Simplify'
+                        target: 'simplify'
+                    Tile:
+                        icon: 'image-search-outline'
+                        text: 'Analyze image'
+                        target: 'scan'
+                    Tile:
+                        icon: 'history'
+                        text: 'History'
+                        target: 'history'
+                    Tile:
+                        icon: 'book-search-outline'
+                        text: 'Topic sources'
+                        target: 'sources'
+                    Tile:
+                        icon: 'file-document-outline'
+                        text: 'Civic brief'
+                        target: 'brief'
+                    Tile:
+                        icon: 'cog'
+                        text: 'Settings'
+                        target: 'settings'
+
+<RootLayout@MDBoxLayout>:
+    orientation: 'vertical'
+    md_bg_color: 0.97, 0.98, 0.99, 1
+    MDTopAppBar:
+        id: toolbar
+        title: 'Home'
+        elevation: 1
+        md_bg_color: 1,1,1,1
+        specific_text_color: 0.12, 0.12, 0.12, 1
+    AnchorLayout:
+        anchor_x: 'center'
+        anchor_y: 'top'
+        MDCard:
+            id: phone
+            orientation: 'vertical'
+            padding: dp(14)
+            size_hint: None, 1
+            width: dp(414)
+            radius: [28,28,28,28]
+            elevation: 8
+            md_bg_color: 1,1,1,1
+            ScreenManager:
+                id: sm
+                HomeScreen:
+                    name: 'home'
+                SimplifyScreen:
+                    name: 'simplify'
+                HistoryScreen:
+                    name: 'history'
+                ScanScreen:
+                    name: 'scan'
+                SourcesScreen:
+                    name: 'sources'
+                SettingsScreen:
+                    name: 'settings'
+                CivicBriefScreen:
+                    name: 'brief'
+
+# Instantiate the root
+RootLayout:
