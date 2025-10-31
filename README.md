@@ -4,7 +4,7 @@ plainspeak is a beautifully designed full-stack web application that is tailored
 
 I landed at this idea in a few different ways:
 1. Terms of Service is difficult for the average reader. Especially since Amazon has 196 million American users, many millions of users do not know what they are agreeing to. (citation - https://cirpamazon.substack.com/p/new-us-amazon-prime-estimate-still), 
-2. 130 million americans struggle to read above a 6th grade reading level, while documents that dictate our lives are written at a 14th grade level (citation - https://www.nu.edu/blog/49-adult-literacy-statistics-and-facts/#:~:text=About%20130%20million%20U.S.%20adults,below%20a%20fifth%2Dgrade%20level.) , (https://www.apmresearchlab.org/10x-adult-literacy)
+2. 130 million americans struggle to read above a 6th grade reading level, while documents that dictate our lives are written at a 14th grade level (citation - https://www.nu.edu/blog/49-adult-literacy-statistics-and-facts/#:~:text=About%20130%20million%20U.S.%20adults,below%20a%20fifth%2Dgrade%20level.) , (https://www.apmresearchlab.org/10x-adult-literacy) , (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3313837)
 3. Immigrants who do not know english do not only have trouble understanding text but also the redundancy of important documents. This app works to take english text, make it simpler to read, and then translate it to the original text for the reader.
 
 ## how to run
